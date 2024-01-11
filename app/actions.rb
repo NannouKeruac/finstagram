@@ -1,4 +1,3 @@
 get '/' do
-    "Tarin Elliston"
+    File.read(File.join('app/views', 'index.html'))
 end
-
